@@ -1,0 +1,18 @@
+.banner {
+    background-image: URL(/images/stardust.png);
+    filter: hue-rotate(90deg);
+}
+
+.hero-image img {
+    border-radius: 50%;
+    margin: auto;
+    position: static;
+}
+
+.title {
+    font-family: 'Monoton', cursive;
+}
+
+.name {
+    font-family: 'Charmonman', cursive;
+}

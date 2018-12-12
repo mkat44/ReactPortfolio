@@ -1,0 +1,11 @@
+body {
+    background-image: URL(/images/spiration-light.png);
+    display: flex;
+    min-height: 125vh;
+    flex-direction: column;
+    font-family: 'Neuton', serif;
+}
+
+.header {
+    font-family: 'Paytone One', sans-serif;
+}
