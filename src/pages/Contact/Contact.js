@@ -25,50 +25,52 @@ class Contact extends React.Component {
                             <Box>
                                 <Title><span className="header">Contact Me</span></Title>
                                 <hr></hr>
-                                <Field isHorizontal>
-                                    <FieldLabel isNormal>
-                                        <Label>From</Label>
-                                    </FieldLabel>
-                                    <FieldBody>
-                                        <Field isGrouped>
-                                            <Control isExpanded hasIcons='left'>
-                                                <Input placeholder='Name' />
-                                                <Icon isSize='small' isAlign='left'><span className="fa fa-user" aria-hidden="true"/></Icon>
-                                            </Control>
-                                        </Field>
-                                        <Field>
-                                            <Control hasIcons={['left', 'right']}>
-                                                <Input placeholder='Email' value='yours@email.com' />
-                                                <Icon isSize='small' isAlign='left'><span className='fa fa-envelope' /></Icon>
-                                                <Icon isSize='small' isAlign='right'><span className='fa fa-check' /></Icon>
-                                            </Control>
-                                        </Field>
-                                    </FieldBody>
-                                    </Field>
-
+                                <form action="mailto:m.kat44@gmail.com" method="post" encType="text/plain">
                                     <Field isHorizontal>
-                                    <FieldLabel isNormal>
-                                        <Label>Question</Label>
-                                    </FieldLabel>
-                                    <FieldBody>
-                                        <Field>
-                                            <Control>
-                                                <TextArea placeholder='Want to hire me? Have a project you want to talk about? Email me!' />
-                                            </Control>
+                                        <FieldLabel isNormal>
+                                            <Label>From</Label>
+                                        </FieldLabel>
+                                        <FieldBody>
+                                            <Field isGrouped>
+                                                <Control isExpanded hasIcons='left'>
+                                                    <Input placeholder='Name' />
+                                                    <Icon isSize='small' isAlign='left'><span className="fa fa-user" aria-hidden="true"/></Icon>
+                                                </Control>
+                                            </Field>
+                                            <Field>
+                                                <Control hasIcons={['left', 'right']}>
+                                                    <Input placeholder='Email' value='yours@email.com' />
+                                                    <Icon isSize='small' isAlign='left'><span className='fa fa-envelope' /></Icon>
+                                                    <Icon isSize='small' isAlign='right'><span className='fa fa-check' /></Icon>
+                                                </Control>
+                                            </Field>
+                                        </FieldBody>
                                         </Field>
-                                    </FieldBody>
-                                    </Field>
 
-                                    <Field isHorizontal>
-                                    <FieldLabel /> {/* empty for spacing */}
-                                    <FieldBody>
-                                        <Field>
-                                            <Control>
-                                                <a href="mailto:m.kat44@gmail.com"><Button>Submit</Button></a>
-                                            </Control>
+                                        <Field isHorizontal>
+                                        <FieldLabel isNormal>
+                                            <Label>Question</Label>
+                                        </FieldLabel>
+                                        <FieldBody>
+                                            <Field>
+                                                <Control>
+                                                    <TextArea placeholder='Want to hire me? Have a project you want to talk about? Email me!' />
+                                                </Control>
+                                            </Field>
+                                        </FieldBody>
                                         </Field>
-                                    </FieldBody>
-                                </Field>
+
+                                        <Field isHorizontal>
+                                        <FieldLabel /> {/* empty for spacing */}
+                                        <FieldBody>
+                                            <Field>
+                                                <Control>
+                                                    <Button>Submit</Button>
+                                                </Control>
+                                            </Field>
+                                        </FieldBody>
+                                    </Field>
+                                </form>
                             </Box>
                         </Column>
                     </Columns>

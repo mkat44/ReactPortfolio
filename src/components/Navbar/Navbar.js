@@ -23,12 +23,6 @@ class Nav extends React.Component {
                     <NavbarItem isHidden="desktop" href="https://www.linkedin.com/in/mary-carr-a19225170/">
                         <Icon className='fab fa-linkedin' />
                     </NavbarItem>
-                    <NavbarItem hasDropdown isHoverable isHidden="desktop">
-                        <NavbarLink href='/'><i className="fas fa-home"></i></NavbarLink>
-                        <NavbarItem href='/resume'>Resume</NavbarItem>
-                        <NavbarItem href='/projects'>Projects</NavbarItem>
-                        <NavbarItem href="/contact">Contact</NavbarItem>
-                    </NavbarItem>
                 </NavbarBrand>
                 <NavbarMenu isActive={this.state.isActive} onClick={this.onClickNav}>
                     <NavbarEnd>

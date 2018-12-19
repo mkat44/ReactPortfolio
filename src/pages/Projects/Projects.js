@@ -16,10 +16,10 @@ class Projects extends React.Component {
                             <Card>
                                 <CardHeader>
                                     <CardHeaderTitle>
-                                        <Title><span className="header"><a href="https://shredditmern.herokuapp.com/">Shreddit</a></span></Title>
+                                        <Title><span className="header"><a target="_blank" rel="noopener noreferrer" href="https://shredditmern.herokuapp.com/">Shreddit</a></span></Title>
                                     </CardHeaderTitle>
                                     <CardHeaderIcon>
-                                        <Icon href="https://github.com/ac3charland/Shreddit" className="fas fa-music fa-lg" />
+                                        <a target="_blank" rel="noopener noreferrer" href="https://github.com/mkat44/Shreddit"><Icon className="fas fa-music fa-lg" /></a>
                                     </CardHeaderIcon>
                                 </CardHeader>
                                 <CardImage>
@@ -37,10 +37,10 @@ class Projects extends React.Component {
                             <Card>
                                 <CardHeader>
                                     <CardHeaderTitle>
-                                        <Title><span className="header"><a href="http://madly-carpenter.surge.sh/">PikminClicky</a></span></Title>
+                                        <Title><span className="header"><a target="_blank" rel="noopener noreferrer" href="http://madly-carpenter.surge.sh/">PikminClicky</a></span></Title>
                                     </CardHeaderTitle>
                                     <CardHeaderIcon>
-                                        <Icon href="https://github.com/mkat44/PikminClicky" className="fas fa-leaf fa-lg" />
+                                        <a target="_blank" rel="noopener noreferrer" href="https://github.com/mkat44/PikminClicky"><Icon className="fas fa-leaf fa-lg" /></a>
                                     </CardHeaderIcon>
                                 </CardHeader>
                                 <CardImage>
@@ -58,10 +58,10 @@ class Projects extends React.Component {
                             <Card>
                                 <CardHeader>
                                     <CardHeaderTitle>
-                                        <Title><span className="header"><a href="https://dnd-campaign-ss.herokuapp.com/">D&D Campaign</a></span></Title>
+                                        <Title><span className="header"><a target="_blank" rel="noopener noreferrer" href="https://dnd-campaign-ss.herokuapp.com/">D&D Campaign</a></span></Title>
                                     </CardHeaderTitle>
                                     <CardHeaderIcon>
-                                        <Icon href="https://github.com/AshymOR/DnD-Campaign" className="fas fa-feather fa-lg" />
+                                        <a target="_blank" rel="noopener noreferrer" href="https://github.com/mkat44/DnD-Campaign"><Icon className="fas fa-feather fa-lg" /></a>
                                     </CardHeaderIcon>
                                 </CardHeader>
                                 <CardImage>
@@ -81,10 +81,10 @@ class Projects extends React.Component {
                             <Card>
                                 <CardHeader>
                                     <CardHeaderTitle>
-                                        <Title><span className="header"><a href="https://catlateral-mini.herokuapp.com/">Catlateral Mini</a></span></Title>
+                                        <Title><span className="header"><a target="_blank" rel="noopener noreferrer" href="https://catlateral-mini.herokuapp.com/">Catlateral Mini</a></span></Title>
                                     </CardHeaderTitle>
                                     <CardHeaderIcon>
-                                        <Icon href="https://github.com/mkat44/catlateral-mini" className="fas fa-paw fa-lg" />
+                                        <a target="_blank" rel="noopener noreferrer" href="https://github.com/mkat44/catlateral-mini"><Icon className="fas fa-paw fa-lg" /></a>
                                     </CardHeaderIcon>
                                 </CardHeader>
                                 <CardImage>
@@ -92,7 +92,7 @@ class Projects extends React.Component {
                                 </CardImage>
                                 <CardContent>
                                     <Content>
-                                        <p>A web application built using Handlebars.js which pays homage to the Catlateral Damage game on Steam. It allows users to add objects and knock them off ledges. Users can then reset the item to do it again, or choose to add more items.</p>
+                                        <p>A web application built using Handlebars.js which pays homage to the Catlateral Damage game by Fire Hose Games and Chris Chung which is available on Steam. It allows users to add objects and knock them off ledges. Users can then reset the item to do it again, or choose to add more items.</p>
                                         <Tag isColor='black'>Handlebars.js</Tag> <Tag isColor='black'>Node.js</Tag> <Tag isColor='black'>Express.js</Tag> <Tag isColor='black'>Bootstrap</Tag> <Tag isColor='black'>SQL</Tag>
                                     </Content>
                                 </CardContent>
@@ -102,10 +102,10 @@ class Projects extends React.Component {
                             <Card>
                                 <CardHeader>
                                     <CardHeaderTitle>
-                                        <Title><span className="header"><a href="https://coding-bootcamp-project-1.herokuapp.com/index.html">Git Outta Town</a></span></Title>
+                                        <Title><span className="header"><a target="_blank" rel="noopener noreferrer" href="https://coding-bootcamp-project-1.herokuapp.com/index.html">Git Outta Town</a></span></Title>
                                     </CardHeaderTitle>
                                     <CardHeaderIcon>
-                                        <Icon href="https://github.com/ehickstein/Git_outta_town" className="fas fa-suitcase fa-lg" />
+                                        <a target="_blank" rel="noopener noreferrer" href="https://github.com/mkat44/Git_outta_town"><Icon className="fas fa-suitcase fa-lg" /></a>
                                     </CardHeaderIcon>
                                 </CardHeader>
                                 <CardImage>
@@ -123,10 +123,10 @@ class Projects extends React.Component {
                             <Card>
                                 <CardHeader>
                                     <CardHeaderTitle>
-                                        <Title><span className="header"><a href="https://mkat44.github.io/Getting-Giphy-With-It/">Getting Giphy With It</a></span></Title>
+                                        <Title><span className="header"><a target="_blank" rel="noopener noreferrer" href="https://mkat44.github.io/Getting-Giphy-With-It/">Getting Giphy With It</a></span></Title>
                                     </CardHeaderTitle>
                                     <CardHeaderIcon>
-                                        <Icon href="https://github.com/mkat44/Getting-Giphy-With-It" className="far fa-grin-stars fa-lg" />
+                                        <a target="_blank" rel="noopener noreferrer" href="https://github.com/mkat44/Getting-Giphy-With-It"><Icon className="far fa-grin-stars fa-lg" /></a>
                                     </CardHeaderIcon>
                                 </CardHeader>
                                 <CardImage>

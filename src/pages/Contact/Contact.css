@@ -1,9 +1,10 @@
 body {
     background-image: URL(/images/spiration-light.png);
     display: flex;
-    min-height: 125vh;
+    min-height: 150vh;
     flex-direction: column;
     font-family: 'Neuton', serif;
+    margin-bottom: 5%;
 }
 
 .header {
